@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>OperandType (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    OperandType Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-tms320c6000.html">
+        B2R2.FrontEnd.BinLifter.TMS320C6000
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.FrontEnd.BinLifter.TMS320C6000.dll
+    </dt>
+    <dt>
+      Parent Module: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-tms320c6000-parser.html">
+        Parser
+      </a>
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+    <dt>
+      All Interfaces: 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-tms320c6000-parser-operandtype.html">OperandType</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralequatable">IStructuralEquatable</a></code>
+      , 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-tms320c6000-parser-operandtype.html">OperandType</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralcomparable">IStructuralComparable</a></code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ Table 3-1. Instruction Operation and Execution Notations.
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Union cases
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Union case
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7598', 7598)" onmouseover="showTip(event, '7598', 7598)">
+                <p>
+                  <a id="B14B15">
+                    <a href="#B14B15">
+                      <code><span>B14B15</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7598">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>B14B15</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L34-34" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Register B14 or B15.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7599', 7599)" onmouseover="showTip(event, '7599', 7599)">
+                <p>
+                  <a id="BVec2">
+                    <a href="#BVec2">
+                      <code><span>BVec2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7599">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>BVec2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L36-36" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Bit vector of two flags for s2 or u2 data type.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7600', 7600)" onmouseover="showTip(event, '7600', 7600)">
+                <p>
+                  <a id="BVec4">
+                    <a href="#BVec4">
+                      <code><span>BVec4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7600">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>BVec4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L38-38" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Bit vector of four flags for s4 or u4 data type.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7601', 7601)" onmouseover="showTip(event, '7601', 7601)">
+                <p>
+                  <a id="Const">
+                    <a href="#Const">
+                      <code><span>Const</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7601">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Const</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L40-40" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ n-bit constant field (for example, cst5).
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7602', 7602)" onmouseover="showTip(event, '7602', 7602)">
+                <p>
+                  <a id="DInt">
+                    <a href="#DInt">
+                      <code><span>DInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7602">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L42-42" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ 64-bit integer value (two registers).
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7603', 7603)" onmouseover="showTip(event, '7603', 7603)">
+                <p>
+                  <a id="DP">
+                    <a href="#DP">
+                      <code><span>DP</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7603">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DP</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L44-44" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Double-precision floating-point register value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7604', 7604)" onmouseover="showTip(event, '7604', 7604)">
+                <p>
+                  <a id="DS2">
+                    <a href="#DS2">
+                      <code><span>DS2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7604">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DS2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L46-46" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed signed 16-bit integers in a single 64-bit register pair.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7605', 7605)" onmouseover="showTip(event, '7605', 7605)">
+                <p>
+                  <a id="DUInt">
+                    <a href="#DUInt">
+                      <code><span>DUInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7605">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DUInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L48-48" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 64-bit integer value (two registers).
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7606', 7606)" onmouseover="showTip(event, '7606', 7606)">
+                <p>
+                  <a id="DWS4">
+                    <a href="#DWS4">
+                      <code><span>DWS4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7606">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DWS4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L50-50" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed signed 16-bit integers in a 64-bit register pair.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7607', 7607)" onmouseover="showTip(event, '7607', 7607)">
+                <p>
+                  <a id="DWU4">
+                    <a href="#DWU4">
+                      <code><span>DWU4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7607">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>DWU4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L52-52" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed unsigned 16-bit integers in a 64-bit register pair.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7608', 7608)" onmouseover="showTip(event, '7608', 7608)">
+                <p>
+                  <a id="I2">
+                    <a href="#I2">
+                      <code><span>I2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7608">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>I2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L54-54" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed 16-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7609', 7609)" onmouseover="showTip(event, '7609', 7609)">
+                <p>
+                  <a id="I4">
+                    <a href="#I4">
+                      <code><span>I4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7609">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>I4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L56-56" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed 8-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7610', 7610)" onmouseover="showTip(event, '7610', 7610)">
+                <p>
+                  <a id="Int">
+                    <a href="#Int">
+                      <code><span>Int</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7610">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Int</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L58-58" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ 32-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7611', 7611)" onmouseover="showTip(event, '7611', 7611)">
+                <p>
+                  <a id="S2">
+                    <a href="#S2">
+                      <code><span>S2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7611">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>S2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L60-60" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed signed 16-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7612', 7612)" onmouseover="showTip(event, '7612', 7612)">
+                <p>
+                  <a id="S4">
+                    <a href="#S4">
+                      <code><span>S4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7612">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>S4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L62-62" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed signed 8-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7613', 7613)" onmouseover="showTip(event, '7613', 7613)">
+                <p>
+                  <a id="SConst">
+                    <a href="#SConst">
+                      <code><span>SConst</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7613">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SConst</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L64-64" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ n-bit signed constant field.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7614', 7614)" onmouseover="showTip(event, '7614', 7614)">
+                <p>
+                  <a id="SDInt">
+                    <a href="#SDInt">
+                      <code><span>SDInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7614">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SDInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L66-66" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 64-bit integer value (two registers).
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7615', 7615)" onmouseover="showTip(event, '7615', 7615)">
+                <p>
+                  <a id="SInt">
+                    <a href="#SInt">
+                      <code><span>SInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7615">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L68-68" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 32-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7616', 7616)" onmouseover="showTip(event, '7616', 7616)">
+                <p>
+                  <a id="SLLong">
+                    <a href="#SLLong">
+                      <code><span>SLLong</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7616">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SLLong</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L70-70" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 64-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7617', 7617)" onmouseover="showTip(event, '7617', 7617)">
+                <p>
+                  <a id="SLong">
+                    <a href="#SLong">
+                      <code><span>SLong</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7617">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SLong</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L72-72" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 40-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7618', 7618)" onmouseover="showTip(event, '7618', 7618)">
+                <p>
+                  <a id="SLsb16">
+                    <a href="#SLsb16">
+                      <code><span>SLsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7618">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SLsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L74-74" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 16-bit integer value in lower half of 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7619', 7619)" onmouseover="showTip(event, '7619', 7619)">
+                <p>
+                  <a id="SMsb16">
+                    <a href="#SMsb16">
+                      <code><span>SMsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7619">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SMsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L76-76" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 16-bit integer value in upper half of 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7620', 7620)" onmouseover="showTip(event, '7620', 7620)">
+                <p>
+                  <a id="SP">
+                    <a href="#SP">
+                      <code><span>SP</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7620">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SP</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L79-79" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Single-precision floating-point register value that can optionally use
+ cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7621', 7621)" onmouseover="showTip(event, '7621', 7621)">
+                <p>
+                  <a id="U2">
+                    <a href="#U2">
+                      <code><span>U2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7621">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>U2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L81-81" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed unsigned 16-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7622', 7622)" onmouseover="showTip(event, '7622', 7622)">
+                <p>
+                  <a id="U4">
+                    <a href="#U4">
+                      <code><span>U4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7622">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>U4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L83-83" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed unsigned 8-bit integers in a single 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7623', 7623)" onmouseover="showTip(event, '7623', 7623)">
+                <p>
+                  <a id="UConst">
+                    <a href="#UConst">
+                      <code><span>UConst</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7623">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>UConst</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L85-85" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ n-bit unsigned constant field (for example, ucst5).
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7624', 7624)" onmouseover="showTip(event, '7624', 7624)">
+                <p>
+                  <a id="UInt">
+                    <a href="#UInt">
+                      <code><span>UInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7624">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>UInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L87-87" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 32-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7625', 7625)" onmouseover="showTip(event, '7625', 7625)">
+                <p>
+                  <a id="ULLong">
+                    <a href="#ULLong">
+                      <code><span>ULLong</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7625">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ULLong</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L89-89" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 64-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7626', 7626)" onmouseover="showTip(event, '7626', 7626)">
+                <p>
+                  <a id="ULong">
+                    <a href="#ULong">
+                      <code><span>ULong</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7626">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ULong</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L91-91" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 40-bit integer value.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7627', 7627)" onmouseover="showTip(event, '7627', 7627)">
+                <p>
+                  <a id="ULsb16">
+                    <a href="#ULsb16">
+                      <code><span>ULsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7627">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ULsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L93-93" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 16-bit integer value in lower half of 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7628', 7628)" onmouseover="showTip(event, '7628', 7628)">
+                <p>
+                  <a id="UMsb16">
+                    <a href="#UMsb16">
+                      <code><span>UMsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7628">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>UMsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L95-95" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 16-bit integer value in upper half of 32-bit register.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7629', 7629)" onmouseover="showTip(event, '7629', 7629)">
+                <p>
+                  <a id="XDP">
+                    <a href="#XDP">
+                      <code><span>XDP</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7629">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XDP</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L98-98" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Double-precision floating-point register value that can optionally use
+ cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7630', 7630)" onmouseover="showTip(event, '7630', 7630)">
+                <p>
+                  <a id="XI2">
+                    <a href="#XI2">
+                      <code><span>XI2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7630">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XI2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L101-101" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed 16-bit integers in a single 32-bit register that can optionally
+ use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7631', 7631)" onmouseover="showTip(event, '7631', 7631)">
+                <p>
+                  <a id="XI4">
+                    <a href="#XI4">
+                      <code><span>XI4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7631">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XI4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L104-104" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed 8-bit integers in a single 32-bit register that can optionally
+ use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7632', 7632)" onmouseover="showTip(event, '7632', 7632)">
+                <p>
+                  <a id="XInt">
+                    <a href="#XInt">
+                      <code><span>XInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7632">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L106-106" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ 32-bit integer value that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7633', 7633)" onmouseover="showTip(event, '7633', 7633)">
+                <p>
+                  <a id="XS2">
+                    <a href="#XS2">
+                      <code><span>XS2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7633">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XS2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L109-109" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed signed 16-bit integers in a single 32-bit register that can
+ optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7634', 7634)" onmouseover="showTip(event, '7634', 7634)">
+                <p>
+                  <a id="XS4">
+                    <a href="#XS4">
+                      <code><span>XS4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7634">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XS4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L112-112" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed signed 8-bit integers in a single 32-bit register that can
+ optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7635', 7635)" onmouseover="showTip(event, '7635', 7635)">
+                <p>
+                  <a id="XSInt">
+                    <a href="#XSInt">
+                      <code><span>XSInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7635">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XSInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L114-114" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 32-bit integer value that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7636', 7636)" onmouseover="showTip(event, '7636', 7636)">
+                <p>
+                  <a id="XSLsb16">
+                    <a href="#XSLsb16">
+                      <code><span>XSLsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7636">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XSLsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L116-116" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 16 LSB of register that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7637', 7637)" onmouseover="showTip(event, '7637', 7637)">
+                <p>
+                  <a id="XSMsb16">
+                    <a href="#XSMsb16">
+                      <code><span>XSMsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7637">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XSMsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L118-118" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Signed 16 MSB of register that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7638', 7638)" onmouseover="showTip(event, '7638', 7638)">
+                <p>
+                  <a id="XSP">
+                    <a href="#XSP">
+                      <code><span>XSP</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7638">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XSP</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L121-121" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Single-precision floating-point register value that can optionally use
+ cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7639', 7639)" onmouseover="showTip(event, '7639', 7639)">
+                <p>
+                  <a id="XU2">
+                    <a href="#XU2">
+                      <code><span>XU2</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7639">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XU2</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L124-124" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Two packed unsigned 16-bit integers in a single 32-bit register that can
+ optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7640', 7640)" onmouseover="showTip(event, '7640', 7640)">
+                <p>
+                  <a id="XU4">
+                    <a href="#XU4">
+                      <code><span>XU4</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7640">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XU4</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L127-127" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Four packed unsigned 8-bit integers in a single 32-bit register that can
+ optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7641', 7641)" onmouseover="showTip(event, '7641', 7641)">
+                <p>
+                  <a id="XUInt">
+                    <a href="#XUInt">
+                      <code><span>XUInt</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7641">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XUInt</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L129-129" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 32-bit integer value that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7642', 7642)" onmouseover="showTip(event, '7642', 7642)">
+                <p>
+                  <a id="XULsb16">
+                    <a href="#XULsb16">
+                      <code><span>XULsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7642">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XULsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L131-131" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 16 LSB of register that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '7643', 7643)" onmouseover="showTip(event, '7643', 7643)">
+                <p>
+                  <a id="XUMsb16">
+                    <a href="#XUMsb16">
+                      <code><span>XUMsb16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="7643">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>XUMsb16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/TMS320C6000/TMS320C6000Parser.fs#L133-133" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unsigned 16 MSB of register that can optionally use cross path.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MSExpr (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    MSExpr Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling.html">
+        B2R2.FrontEnd.NameMangling
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.FrontEnd.NameMangling.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+    <dt>
+      All Interfaces: 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralequatable">IStructuralEquatable</a></code>
+      , 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralcomparable">IStructuralComparable</a></code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ AST for microsoft mangled expressions.
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Union cases
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Union case
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8189', 8189)" onmouseover="showTip(event, '8189', 8189)">
+                <p>
+                  <a id="ArrayPtr">
+                    <a href="#ArrayPtr">
+                      <code><span>ArrayPtr(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span>,&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a>&#32;list</span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8189">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ArrayPtr(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span>,&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a>&#32;list</span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item3
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L449-449" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Pointer to an array of pointerStrTs * dimensions * Array data type.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item3
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8190', 8190)" onmouseover="showTip(event, '8190', 8190)">
+                <p>
+                  <a id="ArrayType">
+                    <a href="#ArrayType">
+                      <code><span>ArrayType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8190">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ArrayType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L452-452" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Array type (not pointer to array) of modified data type * dimension.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-arraylength.html">ArrayLength</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8191', 8191)" onmouseover="showTip(event, '8191', 8191)">
+                <p>
+                  <a id="ComplexT">
+                    <a href="#ComplexT">
+                      <code><span>ComplexT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-complextypekind.html">ComplexTypeKind</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8191">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ComplexT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-complextypekind.html">ComplexTypeKind</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-complextypekind.html">ComplexTypeKind</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L397-397" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Whole information of a complex type of complaexTypeKind * TypeBody.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-complextypekind.html">ComplexTypeKind</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8192', 8192)" onmouseover="showTip(event, '8192', 8192)">
+                <p>
+                  <a id="ConcatT">
+                    <a href="#ConcatT">
+                      <code><span>ConcatT&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8192">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ConcatT&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L463-463" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Concatinate Type of MSExpr list.
+ Concatinates the demangled string of each MSExpr in the list.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8193', 8193)" onmouseover="showTip(event, '8193', 8193)">
+                <p>
+                  <a id="ConstructedTemplate">
+                    <a href="#ConstructedTemplate">
+                      <code><span>ConstructedTemplate(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8193">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ConstructedTemplate(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L440-440" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Constructor comming inside templates.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8194', 8194)" onmouseover="showTip(event, '8194', 8194)">
+                <p>
+                  <a id="Constructor">
+                    <a href="#Constructor">
+                      <code><span>Constructor&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8194">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Constructor&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L425-425" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A constructor of Name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8195', 8195)" onmouseover="showTip(event, '8195', 8195)">
+                <p>
+                  <a id="Destructor">
+                    <a href="#Destructor">
+                      <code><span>Destructor&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8195">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Destructor&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L428-428" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A destructor of Name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8196', 8196)" onmouseover="showTip(event, '8196', 8196)">
+                <p>
+                  <a id="EnumType">
+                    <a href="#EnumType">
+                      <code><span>EnumType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-enumtypekind.html">EnumTypeKind</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8196">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>EnumType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-enumtypekind.html">EnumTypeKind</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-enumtypekind.html">EnumTypeKind</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L400-400" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ EnumType of the Enum data type * name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-enumtypekind.html">EnumTypeKind</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8197', 8197)" onmouseover="showTip(event, '8197', 8197)">
+                <p>
+                  <a id="ExtendedBuiltInType">
+                    <a href="#ExtendedBuiltInType">
+                      <code><span>ExtendedBuiltInType&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-underscoredbuiltintype.html">UnderscoredBuiltInType</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8197">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ExtendedBuiltInType&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-underscoredbuiltintype.html">UnderscoredBuiltInType</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-underscoredbuiltintype.html">UnderscoredBuiltInType</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L383-383" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An MSExpr form for an underscored builtInType represented by an underscore
+ first then a single letter.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-underscoredbuiltintype.html">UnderscoredBuiltInType</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8198', 8198)" onmouseover="showTip(event, '8198', 8198)">
+                <p>
+                  <a id="FullName">
+                    <a href="#FullName">
+                      <code><span>FullName&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8198">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>FullName&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L376-376" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A nested name without type information.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8199', 8199)" onmouseover="showTip(event, '8199', 8199)">
+                <p>
+                  <a id="FuncPointer">
+                    <a href="#FuncPointer">
+                      <code><span>FuncPointer(<span>pointers,&#32;callingConvention,&#32;returnType,&#32;interpretationHelperString,&#32;parameterTypes,&#32;modifiers</span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8199">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>FuncPointer(<span>pointers,&#32;callingConvention,&#32;returnType,&#32;interpretationHelperString,&#32;parameterTypes,&#32;modifiers</span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        pointers
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        callingConvention
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        returnType
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        interpretationHelperString
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-interphelperstring.html">InterpHelperString</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        parameterTypes
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        modifiers
+                      </b>
+                      :
+                      <code><span><span>(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>)</span>&#32;option</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L404-404" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ For functions as arguements with PointerStrs, calling convention,
+ return type , carry string, and Parameter types.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  pointers
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  callingConvention
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  returnType
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  interpretationHelperString
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-interphelperstring.html">InterpHelperString</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  parameterTypes
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  modifiers
+                </span>
+                :
+                <code><span><span>(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>)</span>&#32;option</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8200', 8200)" onmouseover="showTip(event, '8200', 8200)">
+                <p>
+                  <a id="FunctionT">
+                    <a href="#FunctionT">
+                      <code><span>FunctionT(<span>callScope,&#32;modifiers,&#32;callingConvention,&#32;functionName,&#32;returnType,&#32;parameterTypes,&#32;returnTypeModifier</span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8200">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>FunctionT(<span>callScope,&#32;modifiers,&#32;callingConvention,&#32;functionName,&#32;returnType,&#32;parameterTypes,&#32;returnTypeModifier</span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        callScope
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callscope.html">CallScope</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        modifiers
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        callingConvention
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        functionName
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        returnType
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        parameterTypes
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        returnTypeModifier
+                      </b>
+                      :
+                      <code><span><span>(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>)</span>&#32;option</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L413-413" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A function of scope * modifiers * calling convention * Name
+ * ReturnType * ParameterTypes * ReturnType modifiers (if any).
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  callScope
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callscope.html">CallScope</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  modifiers
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  callingConvention
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  functionName
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  returnType
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  parameterTypes
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  returnTypeModifier
+                </span>
+                :
+                <code><span><span>(<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>)</span>&#32;option</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8201', 8201)" onmouseover="showTip(event, '8201', 8201)">
+                <p>
+                  <a id="IgnoredType">
+                    <a href="#IgnoredType">
+                      <code><span>IgnoredType</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8201">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IgnoredType</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L459-459" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Ingored type for temlates.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8202', 8202)" onmouseover="showTip(event, '8202', 8202)">
+                <p>
+                  <a id="MangledSymbolPtr">
+                    <a href="#MangledSymbolPtr">
+                      <code><span>MangledSymbolPtr&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8202">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>MangledSymbolPtr&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L437-437" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Mangled symbol pointer that comes only as template parameter.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8203', 8203)" onmouseover="showTip(event, '8203', 8203)">
+                <p>
+                  <a id="ModifiedType">
+                    <a href="#ModifiedType">
+                      <code><span>ModifiedType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8203">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ModifiedType(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L443-443" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Modified type of type * modifiers.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8204', 8204)" onmouseover="showTip(event, '8204', 8204)">
+                <p>
+                  <a id="Name">
+                    <a href="#Name">
+                      <code><span>Name&#32;string</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8204">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Name&#32;string</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code>string</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L373-373" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A name without type information.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8205', 8205)" onmouseover="showTip(event, '8205', 8205)">
+                <p>
+                  <a id="NestedFunc">
+                    <a href="#NestedFunc">
+                      <code><span>NestedFunc&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8205">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>NestedFunc&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L434-434" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Function nested in another function.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8206', 8206)" onmouseover="showTip(event, '8206', 8206)">
+                <p>
+                  <a id="PointerStrT">
+                    <a href="#PointerStrT">
+                      <code><span>PointerStrT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-pointertypeindicator.html">PointerTypeIndicator</a>,&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8206">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>PointerStrT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-pointertypeindicator.html">PointerTypeIndicator</a>,&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-pointertypeindicator.html">PointerTypeIndicator</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item3
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L389-389" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ PointerStrT of PointerType * (prefixes * cvModifier) * cvTypeMSExpr.
+ The cvTypeMSExpr differentiates between normalPointers, __basedPointers,
+ memberPointers, or __based member pointers.
+ Has all the information about the pointer symbol including prefixes.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-pointertypeindicator.html">PointerTypeIndicator</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-modifierprefix.html">ModifierPrefix</a>&#32;list</span>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-cvmodifier.html">CVModifier</a></span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item3
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8207', 8207)" onmouseover="showTip(event, '8207', 8207)">
+                <p>
+                  <a id="PointerT">
+                    <a href="#PointerT">
+                      <code><span>PointerT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8207">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>PointerT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L394-394" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A pointer type of PointerStrType * PointedType.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8208', 8208)" onmouseover="showTip(event, '8208', 8208)">
+                <p>
+                  <a id="RTTI0">
+                    <a href="#RTTI0">
+                      <code><span>RTTI0&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8208">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>RTTI0&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L431-431" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ RTTI0 code of any type.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8209', 8209)" onmouseover="showTip(event, '8209', 8209)">
+                <p>
+                  <a id="SimpleBuiltInType">
+                    <a href="#SimpleBuiltInType">
+                      <code><span>SimpleBuiltInType&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-normalbuiltintype.html">NormalBuiltInType</a></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8209">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SimpleBuiltInType&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-normalbuiltintype.html">NormalBuiltInType</a></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-normalbuiltintype.html">NormalBuiltInType</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L379-379" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An MSExpr form for a normal builtInType represented by a single letter.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-normalbuiltintype.html">NormalBuiltInType</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8210', 8210)" onmouseover="showTip(event, '8210', 8210)">
+                <p>
+                  <a id="Template">
+                    <a href="#Template">
+                      <code><span>Template(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8210">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Template(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L422-422" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A template of FullName * Arguement types.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8211', 8211)" onmouseover="showTip(event, '8211', 8211)">
+                <p>
+                  <a id="ThunkF">
+                    <a href="#ThunkF">
+                      <code><span>ThunkF(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8211">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ThunkF(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item3
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item4
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L456-456" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Thunk Function type of calling Type * Name Component * Type Component
+ * Return Type
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-callconvention.html">CallConvention</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item3
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item4
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8212', 8212)" onmouseover="showTip(event, '8212', 8212)">
+                <p>
+                  <a id="ValueT">
+                    <a href="#ValueT">
+                      <code><span>ValueT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8212">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ValueT(<span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a>,&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></span>)</span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        Item1
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        Item2
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/NameMangling/MSTypes.fs#L446-446" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Value of name * type.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item1
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  Item2
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-namemangling-msexpr.html">MSExpr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SIMDDataType (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    SIMDDataType Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-arm32.html">
+        B2R2.FrontEnd.BinLifter.ARM32
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.FrontEnd.BinLifter.ARM32.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+    <dt>
+      All Interfaces: 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-arm32-simddatatype.html">SIMDDataType</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralequatable">IStructuralEquatable</a></code>
+      , 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-arm32-simddatatype.html">SIMDDataType</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralcomparable">IStructuralComparable</a></code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ A2.6.3 Data types supported by the Advanced SIMD Extension
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Union cases
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Union case
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4238', 4238)" onmouseover="showTip(event, '4238', 4238)">
+                <p>
+                  <a id="SIMDTyp16">
+                    <a href="#SIMDTyp16">
+                      <code><span>SIMDTyp16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4238">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTyp16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1088-1088" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4239', 4239)" onmouseover="showTip(event, '4239', 4239)">
+                <p>
+                  <a id="SIMDTyp32">
+                    <a href="#SIMDTyp32">
+                      <code><span>SIMDTyp32</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4239">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTyp32</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1089-1089" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4240', 4240)" onmouseover="showTip(event, '4240', 4240)">
+                <p>
+                  <a id="SIMDTyp64">
+                    <a href="#SIMDTyp64">
+                      <code><span>SIMDTyp64</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4240">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTyp64</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1090-1090" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4241', 4241)" onmouseover="showTip(event, '4241', 4241)">
+                <p>
+                  <a id="SIMDTyp8">
+                    <a href="#SIMDTyp8">
+                      <code><span>SIMDTyp8</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4241">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTyp8</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1087-1087" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4242', 4242)" onmouseover="showTip(event, '4242', 4242)">
+                <p>
+                  <a id="SIMDTypF16">
+                    <a href="#SIMDTypF16">
+                      <code><span>SIMDTypF16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4242">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypF16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1091-1091" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4243', 4243)" onmouseover="showTip(event, '4243', 4243)">
+                <p>
+                  <a id="SIMDTypF32">
+                    <a href="#SIMDTypF32">
+                      <code><span>SIMDTypF32</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4243">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypF32</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1092-1092" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4244', 4244)" onmouseover="showTip(event, '4244', 4244)">
+                <p>
+                  <a id="SIMDTypF64">
+                    <a href="#SIMDTypF64">
+                      <code><span>SIMDTypF64</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4244">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypF64</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1093-1093" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4245', 4245)" onmouseover="showTip(event, '4245', 4245)">
+                <p>
+                  <a id="SIMDTypI16">
+                    <a href="#SIMDTypI16">
+                      <code><span>SIMDTypI16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4245">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypI16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1095-1095" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4246', 4246)" onmouseover="showTip(event, '4246', 4246)">
+                <p>
+                  <a id="SIMDTypI32">
+                    <a href="#SIMDTypI32">
+                      <code><span>SIMDTypI32</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4246">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypI32</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1096-1096" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4247', 4247)" onmouseover="showTip(event, '4247', 4247)">
+                <p>
+                  <a id="SIMDTypI64">
+                    <a href="#SIMDTypI64">
+                      <code><span>SIMDTypI64</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4247">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypI64</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1097-1097" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4248', 4248)" onmouseover="showTip(event, '4248', 4248)">
+                <p>
+                  <a id="SIMDTypI8">
+                    <a href="#SIMDTypI8">
+                      <code><span>SIMDTypI8</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4248">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypI8</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1094-1094" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4249', 4249)" onmouseover="showTip(event, '4249', 4249)">
+                <p>
+                  <a id="SIMDTypP8">
+                    <a href="#SIMDTypP8">
+                      <code><span>SIMDTypP8</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4249">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypP8</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1098-1098" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4250', 4250)" onmouseover="showTip(event, '4250', 4250)">
+                <p>
+                  <a id="SIMDTypS16">
+                    <a href="#SIMDTypS16">
+                      <code><span>SIMDTypS16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4250">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypS16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1100-1100" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4251', 4251)" onmouseover="showTip(event, '4251', 4251)">
+                <p>
+                  <a id="SIMDTypS32">
+                    <a href="#SIMDTypS32">
+                      <code><span>SIMDTypS32</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4251">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypS32</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1101-1101" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4252', 4252)" onmouseover="showTip(event, '4252', 4252)">
+                <p>
+                  <a id="SIMDTypS64">
+                    <a href="#SIMDTypS64">
+                      <code><span>SIMDTypS64</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4252">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypS64</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1102-1102" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4253', 4253)" onmouseover="showTip(event, '4253', 4253)">
+                <p>
+                  <a id="SIMDTypS8">
+                    <a href="#SIMDTypS8">
+                      <code><span>SIMDTypS8</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4253">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypS8</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1099-1099" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4254', 4254)" onmouseover="showTip(event, '4254', 4254)">
+                <p>
+                  <a id="SIMDTypU16">
+                    <a href="#SIMDTypU16">
+                      <code><span>SIMDTypU16</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4254">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypU16</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1104-1104" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4255', 4255)" onmouseover="showTip(event, '4255', 4255)">
+                <p>
+                  <a id="SIMDTypU32">
+                    <a href="#SIMDTypU32">
+                      <code><span>SIMDTypU32</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4255">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypU32</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1105-1105" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4256', 4256)" onmouseover="showTip(event, '4256', 4256)">
+                <p>
+                  <a id="SIMDTypU64">
+                    <a href="#SIMDTypU64">
+                      <code><span>SIMDTypU64</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4256">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypU64</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1106-1106" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '4257', 4257)" onmouseover="showTip(event, '4257', 4257)">
+                <p>
+                  <a id="SIMDTypU8">
+                    <a href="#SIMDTypU8">
+                      <code><span>SIMDTypU8</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="4257">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>SIMDTypU8</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/ARM32/ARM32Types.fs#L1103-1103" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

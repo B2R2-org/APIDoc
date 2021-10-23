@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FunctionMaintainer (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    FunctionMaintainer Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis.html">
+        B2R2.MiddleEnd.ControlFlowAnalysis
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.MiddleEnd.ControlFlowAnalysis.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ Maintains functions in the binary.
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Instance members
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Instance member
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8638', 8638)" onmouseover="showTip(event, '8638', 8638)">
+                <p>
+                  <a id="AddFunction">
+                    <a href="#AddFunction">
+                      <code><span>this.AddFunction<span><span>(<span>func</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8638">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.AddFunction<span><span>(<span>func</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        func
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.AddFunction`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.AddFunction\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L109-109" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Add a new regular function
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  func
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8639', 8639)" onmouseover="showTip(event, '8639', 8639)">
+                <p>
+                  <a id="Contains">
+                    <a href="#Contains">
+                      <code><span>this.Contains<span><span>(<span>name</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8639">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Contains<span><span>(<span>name</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        name
+                      </b>
+                      :
+                      <code>string</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Contains`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Contains\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L59-59" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Check if there is a function with the given name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  name
+                </span>
+                :
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8640', 8640)" onmouseover="showTip(event, '8640', 8640)">
+                <p>
+                  <a id="Contains">
+                    <a href="#Contains">
+                      <code><span>this.Contains<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8640">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Contains<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Contains`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Contains\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L56-56" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Check if the given address belongs to a known function entry address.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8641', 8641)" onmouseover="showTip(event, '8641', 8641)">
+                <p>
+                  <a id="Count">
+                    <a href="#Count">
+                      <code><span>this.Count</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8641">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Count</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>int</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Count`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Count\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L45-45" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ The current number of functions.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>int</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8642', 8642)" onmouseover="showTip(event, '8642', 8642)">
+                <p>
+                  <a id="Entries">
+                    <a href="#Entries">
+                      <code><span>this.Entries</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8642">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Entries</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span>seq&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Entries`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Entries\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L52-52" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Return the sequence of function entry addresses.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span>seq&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8643', 8643)" onmouseover="showTip(event, '8643', 8643)">
+                <p>
+                  <a id="Find">
+                    <a href="#Find">
+                      <code><span>this.Find<span><span>(<span>name</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8643">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Find<span><span>(<span>name</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        name
+                      </b>
+                      :
+                      <code>string</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Find`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Find\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L74-74" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Obtain a function by the given function name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  name
+                </span>
+                :
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8644', 8644)" onmouseover="showTip(event, '8644', 8644)">
+                <p>
+                  <a id="Find">
+                    <a href="#Find">
+                      <code><span>this.Find<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8644">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Find<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Find`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Find\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L71-71" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Obtain a function by the given function entry address.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8645', 8645)" onmouseover="showTip(event, '8645', 8645)">
+                <p>
+                  <a id="FindNextFunctionAddr">
+                    <a href="#FindNextFunctionAddr">
+                      <code><span>this.FindNextFunctionAddr<span><span>(<span>fn</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8645">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.FindNextFunctionAddr<span><span>(<span>fn</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.FindNextFunctionAddr`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.FindNextFunctionAddr\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L87-87" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Return the next function address relative to the given function (fn).
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8646', 8646)" onmouseover="showTip(event, '8646', 8646)">
+                <p>
+                  <a id="FindRegular">
+                    <a href="#FindRegular">
+                      <code><span>this.FindRegular<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8646">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.FindRegular<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.FindRegular`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.FindRegular\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L81-81" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Obtain a regular function by the given function entry address.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8647', 8647)" onmouseover="showTip(event, '8647', 8647)">
+                <p>
+                  <a id="Functions">
+                    <a href="#Functions">
+                      <code><span>this.Functions</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8647">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Functions</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span>seq&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&gt;</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Functions`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Functions\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L48-48" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Return the sequence of functions.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span>seq&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8648', 8648)" onmouseover="showTip(event, '8648', 8648)">
+                <p>
+                  <a id="GetOrAddFunction">
+                    <a href="#GetOrAddFunction">
+                      <code><span>this.GetOrAddFunction<span><span>(<span>hdl,&#32;entry</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8648">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.GetOrAddFunction<span><span>(<span>hdl,&#32;entry</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        hdl
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-bininterface-binhandle.html">BinHandle</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        entry
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.GetOrAddFunction`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.GetOrAddFunction\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L118-118" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Get a regular function at the entry. If the entry does not contain any
+ function, create a new one and return it.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  hdl
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-bininterface-binhandle.html">BinHandle</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  entry
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8649', 8649)" onmouseover="showTip(event, '8649', 8649)">
+                <p>
+                  <a id="RegularFunctions">
+                    <a href="#RegularFunctions">
+                      <code><span>this.RegularFunctions</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8649">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.RegularFunctions</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a>[]</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.RegularFunctions`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.RegularFunctions\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L84-84" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Returns an array of regualr functions.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a>[]</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8650', 8650)" onmouseover="showTip(event, '8650', 8650)">
+                <p>
+                  <a id="RemoveFunction">
+                    <a href="#RemoveFunction">
+                      <code><span>this.RemoveFunction<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8650">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.RemoveFunction<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.RemoveFunction`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.RemoveFunction\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L93-93" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Remove the given function.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8651', 8651)" onmouseover="showTip(event, '8651', 8651)">
+                <p>
+                  <a id="TryFind">
+                    <a href="#TryFind">
+                      <code><span>this.TryFind<span><span>(<span>name</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8651">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.TryFind<span><span>(<span>name</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        name
+                      </b>
+                      :
+                      <code>string</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&#32;option</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFind`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFind\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L65-65" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Try to obtain a function by the given function name.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  name
+                </span>
+                :
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&#32;option</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8652', 8652)" onmouseover="showTip(event, '8652', 8652)">
+                <p>
+                  <a id="TryFind">
+                    <a href="#TryFind">
+                      <code><span>this.TryFind<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8652">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.TryFind<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&#32;option</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFind`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFind\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L62-62" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Try to obtain a function by the given function entry address.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-function.html">Function</a>&#32;option</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8653', 8653)" onmouseover="showTip(event, '8653', 8653)">
+                <p>
+                  <a id="TryFindRegular">
+                    <a href="#TryFindRegular">
+                      <code><span>this.TryFindRegular<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8653">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.TryFindRegular<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a>&#32;option</span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFindRegular`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.TryFindRegular\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L77-77" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Obtain a regular function by the given function entry address.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-regularfunction.html">RegularFunction</a>&#32;option</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8654', 8654)" onmouseover="showTip(event, '8654', 8654)">
+                <p>
+                  <a id="UpdateCallerCrossReferences">
+                    <a href="#UpdateCallerCrossReferences">
+                      <code><span>this.UpdateCallerCrossReferences<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8654">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.UpdateCallerCrossReferences<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.UpdateCallerCrossReferences`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.UpdateCallerCrossReferences\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L133-133" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Update callers' cross references.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h3>
+      Static members
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Static member
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8655', 8655)" onmouseover="showTip(event, '8655', 8655)">
+                <p>
+                  <a id="Init">
+                    <a href="#Init">
+                      <code><span>FunctionMaintainer.Init<span><span>(<span>hdl</span>)</span>&#32;<span>(<span>histMgr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8655">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>FunctionMaintainer.Init<span><span>(<span>hdl</span>)</span>&#32;<span>(<span>histMgr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        hdl
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-bininterface-binhandle.html">BinHandle</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        histMgr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-historymanager.html">HistoryManager</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-functionmaintainer.html">FunctionMaintainer</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Init`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.ControlFlowAnalysis.FunctionMaintainer.Init\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowAnalysis/FunctionMaintainer.fs#L158-158" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  hdl
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-bininterface-binhandle.html">BinHandle</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  histMgr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-historymanager.html">HistoryManager</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowanalysis-functionmaintainer.html">FunctionMaintainer</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

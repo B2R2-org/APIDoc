@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DySymTabCmd (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    DySymTabCmd Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binfile-mach.html">
+        B2R2.FrontEnd.BinFile.Mach
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.FrontEnd.BinFile.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+    <dt>
+      All Interfaces: 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binfile-mach-dysymtabcmd.html">DySymTabCmd</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralequatable">IStructuralEquatable</a></code>
+      , 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binfile-mach-dysymtabcmd.html">DySymTabCmd</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralcomparable">IStructuralComparable</a></code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ Dynamic symbol table command.
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Record fields
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Record Field
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2866', 2866)" onmouseover="showTip(event, '2866', 2866)">
+                <p>
+                  <a id="Cmd">
+                    <a href="#Cmd">
+                      <code>Cmd</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2866">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>Cmd</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binfile-mach-loadcmdtype.html">LoadCmdType</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L369-369" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binfile-mach-loadcmdtype.html">LoadCmdType</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2867', 2867)" onmouseover="showTip(event, '2867', 2867)">
+                <p>
+                  <a id="CmdSize">
+                    <a href="#CmdSize">
+                      <code>CmdSize</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2867">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>CmdSize</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L370-370" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2868', 2868)" onmouseover="showTip(event, '2868', 2868)">
+                <p>
+                  <a id="ExtRefSymOff">
+                    <a href="#ExtRefSymOff">
+                      <code>ExtRefSymOff</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2868">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>ExtRefSymOff</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L401-401" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ external reference table data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2869', 2869)" onmouseover="showTip(event, '2869', 2869)">
+                <p>
+                  <a id="ExtRelOff">
+                    <a href="#ExtRelOff">
+                      <code>ExtRelOff</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2869">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>ExtRelOff</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L412-412" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ external relocation table data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2870', 2870)" onmouseover="showTip(event, '2870', 2870)">
+                <p>
+                  <a id="IdxExtSym">
+                    <a href="#IdxExtSym">
+                      <code>IdxExtSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2870">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>IdxExtSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L379-379" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the index of the first symbol in the group of
+ defined external symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2871', 2871)" onmouseover="showTip(event, '2871', 2871)">
+                <p>
+                  <a id="IdxLocalSym">
+                    <a href="#IdxLocalSym">
+                      <code>IdxLocalSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2871">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>IdxLocalSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L373-373" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the index of the first symbol in the group of local
+ symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2872', 2872)" onmouseover="showTip(event, '2872', 2872)">
+                <p>
+                  <a id="IdxUndefSym">
+                    <a href="#IdxUndefSym">
+                      <code>IdxUndefSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2872">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>IdxUndefSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L385-385" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the index of the first symbol in the group of
+ undefined external symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2873', 2873)" onmouseover="showTip(event, '2873', 2873)">
+                <p>
+                  <a id="IndirectSymOff">
+                    <a href="#IndirectSymOff">
+                      <code>IndirectSymOff</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2873">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>IndirectSymOff</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L407-407" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ indirect symbol table data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2874', 2874)" onmouseover="showTip(event, '2874', 2874)">
+                <p>
+                  <a id="LocalRelOff">
+                    <a href="#LocalRelOff">
+                      <code>LocalRelOff</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2874">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>LocalRelOff</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L418-418" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ local relocation table data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2875', 2875)" onmouseover="showTip(event, '2875', 2875)">
+                <p>
+                  <a id="ModTabOff">
+                    <a href="#ModTabOff">
+                      <code>ModTabOff</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2875">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>ModTabOff</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L396-396" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ module table data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2876', 2876)" onmouseover="showTip(event, '2876', 2876)">
+                <p>
+                  <a id="NumExtRefSym">
+                    <a href="#NumExtRefSym">
+                      <code>NumExtRefSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2876">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumExtRefSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L404-404" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the external reference
+ table.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2877', 2877)" onmouseover="showTip(event, '2877', 2877)">
+                <p>
+                  <a id="NumExtRel">
+                    <a href="#NumExtRel">
+                      <code>NumExtRel</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2877">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumExtRel</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L415-415" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the external relocation
+ table.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2878', 2878)" onmouseover="showTip(event, '2878', 2878)">
+                <p>
+                  <a id="NumExtSym">
+                    <a href="#NumExtSym">
+                      <code>NumExtSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2878">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumExtSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L382-382" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the total number of symbols in the group of defined
+ external symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2879', 2879)" onmouseover="showTip(event, '2879', 2879)">
+                <p>
+                  <a id="NumIndirectSym">
+                    <a href="#NumIndirectSym">
+                      <code>NumIndirectSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2879">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumIndirectSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L409-409" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the indirect symbol table.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2880', 2880)" onmouseover="showTip(event, '2880', 2880)">
+                <p>
+                  <a id="NumLocalRel">
+                    <a href="#NumLocalRel">
+                      <code>NumLocalRel</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2880">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumLocalRel</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L420-420" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the local relocation table.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2881', 2881)" onmouseover="showTip(event, '2881', 2881)">
+                <p>
+                  <a id="NumLocalSym">
+                    <a href="#NumLocalSym">
+                      <code>NumLocalSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2881">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumLocalSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L376-376" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the total number of symbols in the group of local
+ symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2882', 2882)" onmouseover="showTip(event, '2882', 2882)">
+                <p>
+                  <a id="NumModTab">
+                    <a href="#NumModTab">
+                      <code>NumModTab</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2882">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumModTab</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L398-398" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the module table.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2883', 2883)" onmouseover="showTip(event, '2883', 2883)">
+                <p>
+                  <a id="NumTOCContents">
+                    <a href="#NumTOCContents">
+                      <code>NumTOCContents</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2883">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumTOCContents</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L393-393" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the number of entries in the table of contents.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2884', 2884)" onmouseover="showTip(event, '2884', 2884)">
+                <p>
+                  <a id="NumUndefSym">
+                    <a href="#NumUndefSym">
+                      <code>NumUndefSym</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2884">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>NumUndefSym</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L388-388" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the total number of symbols in the group of
+ undefined external symbols.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '2885', 2885)" onmouseover="showTip(event, '2885', 2885)">
+                <p>
+                  <a id="TOCOffset">
+                    <a href="#TOCOffset">
+                      <code>TOCOffset</code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="2885">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code>TOCOffset</code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Field type: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinFile/MachTypes.fs#L391-391" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An integer indicating the byte offset from the start of the file to the
+ table of contents data.
+
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Field type: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

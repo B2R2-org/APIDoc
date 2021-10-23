@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CFGEdgeKind (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    CFGEdgeKind Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph.html">
+        B2R2.MiddleEnd.ControlFlowGraph
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.MiddleEnd.ControlFlowGraph.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+    <dt>
+      All Interfaces: 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cfgedgekind.html">CFGEdgeKind</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralequatable">IStructuralEquatable</a></code>
+      , 
+      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cfgedgekind.html">CFGEdgeKind</a>&gt;</span></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></code>
+      , 
+      <code><a href="https://docs.microsoft.com/dotnet/api/system.collections.istructuralcomparable">IStructuralComparable</a></code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+ TODO: Make DU types for Call, Jmp, FallThrough edges
+ We distinguish edges of a CFG by classifying them into several kinds.
+
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Union cases
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Union case
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8777', 8777)" onmouseover="showTip(event, '8777', 8777)">
+                <p>
+                  <a id="CallEdge">
+                    <a href="#CallEdge">
+                      <code><span>CallEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8777">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>CallEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L48-48" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a regular call instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8778', 8778)" onmouseover="showTip(event, '8778', 8778)">
+                <p>
+                  <a id="CallFallThroughEdge">
+                    <a href="#CallFallThroughEdge">
+                      <code><span>CallFallThroughEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8778">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>CallFallThroughEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L67-67" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A fall-through after a call instruction. This is indeed a pseudo edge as
+ there's no direct control flow from a call instruction to its
+ fall-through.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8779', 8779)" onmouseover="showTip(event, '8779', 8779)">
+                <p>
+                  <a id="ExceptionFallThroughEdge">
+                    <a href="#ExceptionFallThroughEdge">
+                      <code><span>ExceptionFallThroughEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8779">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ExceptionFallThroughEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L75-75" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A fall-through representing C++ exception flows. If there is a function
+ call which causes raising exceptions, then this edge will be used.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8780', 8780)" onmouseover="showTip(event, '8780', 8780)">
+                <p>
+                  <a id="ExternalCallEdge">
+                    <a href="#ExternalCallEdge">
+                      <code><span>ExternalCallEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8780">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ExternalCallEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L58-58" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a call instruction to an external function or PLT.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8781', 8781)" onmouseover="showTip(event, '8781', 8781)">
+                <p>
+                  <a id="ExternalJmpEdge">
+                    <a href="#ExternalJmpEdge">
+                      <code><span>ExternalJmpEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8781">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ExternalJmpEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L56-56" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a jmp instruction to an external function or PLT.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8782', 8782)" onmouseover="showTip(event, '8782', 8782)">
+                <p>
+                  <a id="FallThroughEdge">
+                    <a href="#FallThroughEdge">
+                      <code><span>FallThroughEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8782">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>FallThroughEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L63-63" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A simple fall-through case. This type is created when an edge cuts in two
+ consecutive instructions.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8783', 8783)" onmouseover="showTip(event, '8783', 8783)">
+                <p>
+                  <a id="ImplicitCallEdge">
+                    <a href="#ImplicitCallEdge">
+                      <code><span>ImplicitCallEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8783">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>ImplicitCallEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L80-80" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An implicit edge that is not explicitly visible from the current CALL
+ instruction, but visible within the function. If there is a path in the
+ callee that calls a function, then we create an implicit edge from a
+ caller to any of the callees.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8784', 8784)" onmouseover="showTip(event, '8784', 8784)">
+                <p>
+                  <a id="IndirectCallEdge">
+                    <a href="#IndirectCallEdge">
+                      <code><span>IndirectCallEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8784">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IndirectCallEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L54-54" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge from an indirect call instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8785', 8785)" onmouseover="showTip(event, '8785', 8785)">
+                <p>
+                  <a id="IndirectJmpEdge">
+                    <a href="#IndirectJmpEdge">
+                      <code><span>IndirectJmpEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8785">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IndirectJmpEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L52-52" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge from an indirect jmp instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8786', 8786)" onmouseover="showTip(event, '8786', 8786)">
+                <p>
+                  <a id="InterCJmpFalseEdge">
+                    <a href="#InterCJmpFalseEdge">
+                      <code><span>InterCJmpFalseEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8786">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>InterCJmpFalseEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L37-37" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a conditional jump that is exercised when the condition is
+ false.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8787', 8787)" onmouseover="showTip(event, '8787', 8787)">
+                <p>
+                  <a id="InterCJmpTrueEdge">
+                    <a href="#InterCJmpTrueEdge">
+                      <code><span>InterCJmpTrueEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8787">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>InterCJmpTrueEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L34-34" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a conditional jump that is exercised when the condition is
+ true.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8788', 8788)" onmouseover="showTip(event, '8788', 8788)">
+                <p>
+                  <a id="InterJmpEdge">
+                    <a href="#InterJmpEdge">
+                      <code><span>InterJmpEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8788">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>InterJmpEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L31-31" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a direct jump, e.g., JMP +0x42.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8789', 8789)" onmouseover="showTip(event, '8789', 8789)">
+                <p>
+                  <a id="IntraCJmpFalseEdge">
+                    <a href="#IntraCJmpFalseEdge">
+                      <code><span>IntraCJmpFalseEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8789">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IntraCJmpFalseEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L46-46" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A false conditional edge only visible from an IR-level CFG, because there
+ is a control-flow inside a machine instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8790', 8790)" onmouseover="showTip(event, '8790', 8790)">
+                <p>
+                  <a id="IntraCJmpTrueEdge">
+                    <a href="#IntraCJmpTrueEdge">
+                      <code><span>IntraCJmpTrueEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8790">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IntraCJmpTrueEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L43-43" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A true conditional edge only visible from an IR-level CFG, because there
+ is a control-flow inside a machine instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8791', 8791)" onmouseover="showTip(event, '8791', 8791)">
+                <p>
+                  <a id="IntraJmpEdge">
+                    <a href="#IntraJmpEdge">
+                      <code><span>IntraJmpEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8791">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>IntraJmpEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L40-40" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A direct jump edge only visible from an IR-level CFG, because there is a
+ control-flow inside a machine instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8792', 8792)" onmouseover="showTip(event, '8792', 8792)">
+                <p>
+                  <a id="NoReturnFallThroughEdge">
+                    <a href="#NoReturnFallThroughEdge">
+                      <code><span>NoReturnFallThroughEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8792">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>NoReturnFallThroughEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L72-72" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ A fall-through after a no return call instruction. This edge will never be
+ executed. We have this edge to include all "codes" compiler emitted. If we
+ do not consider such "unreachable" codes from CFG building, we'll never
+ see this edge in the result CFG.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8793', 8793)" onmouseover="showTip(event, '8793', 8793)">
+                <p>
+                  <a id="RecursiveCallEdge">
+                    <a href="#RecursiveCallEdge">
+                      <code><span>RecursiveCallEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8793">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>RecursiveCallEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L50-50" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a recursive call instruction.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8794', 8794)" onmouseover="showTip(event, '8794', 8794)">
+                <p>
+                  <a id="RetEdge">
+                    <a href="#RetEdge">
+                      <code><span>RetEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8794">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>RetEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L60-60" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ An edge of a function return.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '8795', 8795)" onmouseover="showTip(event, '8795', 8795)">
+                <p>
+                  <a id="UnknownEdge">
+                    <a href="#UnknownEdge">
+                      <code><span>UnknownEdge</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="8795">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>UnknownEdge</span></code>
+                  <br/>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L82-82" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Unknown edge type. This should be an error case.
+
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

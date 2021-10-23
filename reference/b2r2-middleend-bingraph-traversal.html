@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Traversal (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    Traversal Module
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph.html">
+        B2R2.MiddleEnd.BinGraph
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.MiddleEnd.BinGraph.dll
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+      </p>
+    </div>
+  </div>
+  <div>
+    <h3>
+      Functions and values
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Function or value
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '707', 707)" onmouseover="showTip(event, '707', 707)">
+                <p>
+                  <a id="consume">
+                    <a href="#consume">
+                      <code><span>consume&#32;<span>visited&#32;g&#32;fn&#32;acc&#32;_arg2</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="707">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>consume&#32;<span>visited&#32;g&#32;fn&#32;acc&#32;_arg2</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        visited
+                      </b>
+                      :
+                      <code><span><a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertexid.html">VertexID</a>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'c</code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        _arg2
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span>'c&#32;*&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></span></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.consume``3```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.consume``3\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L49-49" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  visited
+                </span>
+                :
+                <code><span><a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertexid.html">VertexID</a>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  _arg2
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span>'c&#32;*&#32;<span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '708', 708)" onmouseover="showTip(event, '708', 708)">
+                <p>
+                  <a id="foldPostorder">
+                    <a href="#foldPostorder">
+                      <code><span>foldPostorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="708">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>foldPostorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'c</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>'c</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.foldPostorder``3```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.foldPostorder``3\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L85-85" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Fold vertices of the graph in a depth-first manner with the postorder
+ traversal. The traversal starts from each vertex in roots.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '709', 709)" onmouseover="showTip(event, '709', 709)">
+                <p>
+                  <a id="foldPreorder">
+                    <a href="#foldPreorder">
+                      <code><span>foldPreorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="709">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>foldPreorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'c</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>'c</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.foldPreorder``3```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.foldPreorder``3\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L60-60" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Fold vertices of the graph in a depth-first manner with the preorder
+ traversal.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '710', 710)" onmouseover="showTip(event, '710', 710)">
+                <p>
+                  <a id="foldPreorderExcept">
+                    <a href="#foldPreorderExcept">
+                      <code><span>foldPreorderExcept&#32;<span>g&#32;roots&#32;excepts&#32;fn&#32;acc</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="710">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>foldPreorderExcept&#32;<span>g&#32;roots&#32;excepts&#32;fn&#32;acc</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'c,&#32;'d</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'c&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        excepts
+                      </b>
+                      :
+                      <code><span>'e&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'g&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'c&gt;</span>&#32;->&#32;'g</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'g</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>'g</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.foldPreorderExcept``5```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.foldPreorderExcept``5\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L66-66" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Fold vertices, except them in the second list, of the graph in a
+ depth-first manner with the preorder traversal.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'c,&#32;'d</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'c&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  excepts
+                </span>
+                :
+                <code><span>'e&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'g&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'c&gt;</span>&#32;->&#32;'g</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'g</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>'g</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '711', 711)" onmouseover="showTip(event, '711', 711)">
+                <p>
+                  <a id="foldRevPostorder">
+                    <a href="#foldRevPostorder">
+                      <code><span>foldRevPostorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="711">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>foldRevPostorder&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'c</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>'c</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.foldRevPostorder``3```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.foldRevPostorder``3\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L96-96" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Fold vertices of the graph in a depth-first manner with the reverse
+ postorder traversal. The traversal starts from each vertex in roots.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'c&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;'c</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>'c</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '712', 712)" onmouseover="showTip(event, '712', 712)">
+                <p>
+                  <a id="foldTopologically">
+                    <a href="#foldTopologically">
+                      <code><span>foldTopologically&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="712">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>foldTopologically&#32;<span>g&#32;roots&#32;fn&#32;acc</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'e,&#32;'f</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'e&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span>'g&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'e&gt;</span>&#32;->&#32;'g</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        acc
+                      </b>
+                      :
+                      <code>'g</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>'g</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.foldTopologically``3```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.foldTopologically``3\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L113-113" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Topologically fold every vertex of the given graph. For every unreachable
+ nodes, we accumulate vertices reachable from the node in a postorder
+ fashion. The accumulated list becomes the reverse postordered vertices,
+ which is essentially the same as a topologically sorted list of vertices.
+ We then simply fold the accumulated list. The second parameter (root) is for
+ providing root vertices in case there is no unreachable node, e.g., when
+ there is a loop to the root node.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'e,&#32;'f</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'e&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span>'g&#32;->&#32;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'e&gt;</span>&#32;->&#32;'g</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  acc
+                </span>
+                :
+                <code>'g</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>'g</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '713', 713)" onmouseover="showTip(event, '713', 713)">
+                <p>
+                  <a id="iterPostorder">
+                    <a href="#iterPostorder">
+                      <code><span>iterPostorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="713">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>iterPostorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.iterPostorder``2```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.iterPostorder``2\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L91-91" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Iterate vertices of the graph in a depth-first manner with the postorder
+ traversal. The traversal starts from each vertex in roots.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '714', 714)" onmouseover="showTip(event, '714', 714)">
+                <p>
+                  <a id="iterPreorder">
+                    <a href="#iterPreorder">
+                      <code><span>iterPreorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="714">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>iterPreorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.iterPreorder``2```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.iterPreorder``2\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L75-75" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Iterate vertices of the graph in a depth-first manner with the preorder
+ traversal.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '715', 715)" onmouseover="showTip(event, '715', 715)">
+                <p>
+                  <a id="iterPreorderExcept">
+                    <a href="#iterPreorderExcept">
+                      <code><span>iterPreorderExcept&#32;<span>g&#32;roots&#32;excepts&#32;fn</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="715">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>iterPreorderExcept&#32;<span>g&#32;roots&#32;excepts&#32;fn</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        excepts
+                      </b>
+                      :
+                      <code><span>'c&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.iterPreorderExcept``4```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.iterPreorderExcept``4\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L80-80" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Iterate vertices, except them in the second list, of the graph in a
+ depth-first manner with the preorder traversal.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  excepts
+                </span>
+                :
+                <code><span>'c&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '716', 716)" onmouseover="showTip(event, '716', 716)">
+                <p>
+                  <a id="iterRevPostorder">
+                    <a href="#iterRevPostorder">
+                      <code><span>iterRevPostorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="716">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>iterRevPostorder&#32;<span>g&#32;roots&#32;fn</span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        g
+                      </b>
+                      :
+                      <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        roots
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        fn
+                      </b>
+                      :
+                      <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('```cref:M:B2R2.MiddleEnd.BinGraph.Traversal.iterRevPostorder``2```')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.MiddleEnd.BinGraph.Traversal.iterRevPostorder``2\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/BinGraph/Traversal.fs#L102-102" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+ Iterate vertices of the graph in a depth-first manner with the reverse
+ postorder traversal. The traversal starts from each vertex in roots.
+
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  g
+                </span>
+                :
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-digraph-2.html">DiGraph</a>&lt;<span>'a,&#32;'b</span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  roots
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;list</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  fn
+                </span>
+                :
+                <code><span><span><a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-bingraph-vertex-1.html">Vertex</a>&lt;'a&gt;</span>&#32;->&#32;unit</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

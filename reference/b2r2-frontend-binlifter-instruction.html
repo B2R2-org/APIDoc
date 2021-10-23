@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Instruction (B2R2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2>
+    Instruction Type
+  </h2>
+  <dl class="fsdocs-metadata">
+    <dt>
+      Namespace: 
+      <a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter.html">
+        B2R2.FrontEnd.BinLifter
+      </a>
+    </dt>
+    <dt>
+      Assembly: B2R2.FrontEnd.BinLifter.Core.dll
+    </dt>
+    <dt>
+      Base Type: 
+      <code>obj</code>
+    </dt>
+  </dl>
+  <div class="fsdocs-xmldoc">
+    <div>
+      <p class="fsdocs-summary">
+        
+   A high-level class representing a single machine instruction in a
+   platform-independent manner. It provides useful methods for accessing
+   useful information about the instruction.
+ 
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <h3>
+      Constructors
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Constructor
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3444', 3444)" onmouseover="showTip(event, '3444', 3444)">
+                <p>
+                  <a id="( .ctor )">
+                    <a href="#( .ctor )">
+                      <code><span>Instruction<span><span>(<span>addr,&#32;len,&#32;wordSize</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3444">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>Instruction<span><span>(<span>addr,&#32;len,&#32;wordSize</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        len
+                      </b>
+                      :
+                      <code>uint32</code>
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        wordSize
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-wordsize.html">WordSize</a></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-instruction.html">Instruction</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.#ctor`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.#ctor\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L37-37" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  len
+                </span>
+                :
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  wordSize
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-wordsize.html">WordSize</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-instruction.html">Instruction</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h3>
+      Instance members
+    </h3>
+    <table class="table outer-list fsdocs-member-list">
+      <thead>
+        <tr>
+          <td class="fsdocs-member-list-header">
+            Instance member
+          </td>
+          <td class="fsdocs-member-list-header">
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3445', 3445)" onmouseover="showTip(event, '3445', 3445)">
+                <p>
+                  <a id="Address">
+                    <a href="#Address">
+                      <code><span>this.Address</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3445">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Address</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.FrontEnd.BinLifter.Instruction.Address`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.FrontEnd.BinLifter.Instruction.Address\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L41-41" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   The address of this instruction.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3446', 3446)" onmouseover="showTip(event, '3446', 3446)">
+                <p>
+                  <a id="Decompose">
+                    <a href="#Decompose">
+                      <code><span>this.Decompose<span><span>(<span>arg1</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3446">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Decompose<span><span>(<span>arg1</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        arg0
+                      </b>
+                      :
+                      <code>bool</code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-asmword.html">AsmWord</a>[]</span></code>
+                  </span>
+                  
+   Returns an array of AsmWords.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.Decompose`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.Decompose\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L262-262" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Decompose this instruction into AsmWords.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  arg0
+                </span>
+                :
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-asmword.html">AsmWord</a>[]</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns an array of AsmWords.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3447', 3447)" onmouseover="showTip(event, '3447', 3447)">
+                <p>
+                  <a id="DirectBranchTarget">
+                    <a href="#DirectBranchTarget">
+                      <code><span>this.DirectBranchTarget<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3447">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.DirectBranchTarget<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><span>byref&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if a target address exists. Otherwise, returns false.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.DirectBranchTarget`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.DirectBranchTarget\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L179-179" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Return a branch target address if we can directly compute it, i.e., for
+   direct branches.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><span>byref&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if a target address exists. Otherwise, returns false.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3448', 3448)" onmouseover="showTip(event, '3448', 3448)">
+                <p>
+                  <a id="Disasm">
+                    <a href="#Disasm">
+                      <code><span>this.Disasm<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3448">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Disasm<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>string</code>
+                  </span>
+                  
+   Returns a disassembled string.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.Disasm`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.Disasm\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L254-254" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Disassemble this instruction without resolving symbols.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns a disassembled string.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3449', 3449)" onmouseover="showTip(event, '3449', 3449)">
+                <p>
+                  <a id="Disasm">
+                    <a href="#Disasm">
+                      <code><span>this.Disasm<span><span>(<span>showAddr,&#32;resolveSymbol,&#32;disasmHelper</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3449">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Disasm<span><span>(<span>showAddr,&#32;resolveSymbol,&#32;disasmHelper</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        showAddr
+                      </b>
+                      :
+                      <code>bool</code>
+                       - 
+                      
+   Whether to show the instruction address in the resulting disassembly.
+ 
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        resolveSymbol
+                      </b>
+                      :
+                      <code>bool</code>
+                       - 
+                      
+   Whether to resolve symbols while disassembling the instruction. For
+   example, when there is a call target, we the disassembled string will
+   show the target function name if this parameter is true, and the symbol
+   information exists.
+ 
+                    </span>
+                    <br/>
+                    <span>
+                      <b>
+                        disasmHelper
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-disasmhelper.html">DisasmHelper</a></code>
+                       - 
+                      
+   The helper allows our disassembler to resolve symbols.
+ 
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>string</code>
+                  </span>
+                  
+   Returns a disassembled string.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.Disasm`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.Disasm\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L242-242" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Disassemble this instruction.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  showAddr
+                </span>
+                :
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-param-docs">
+                <p>
+                  
+   Whether to show the instruction address in the resulting disassembly.
+ 
+                </p>
+              </dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  resolveSymbol
+                </span>
+                :
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-param-docs">
+                <p>
+                  
+   Whether to resolve symbols while disassembling the instruction. For
+   example, when there is a call target, we the disassembled string will
+   show the target function name if this parameter is true, and the symbol
+   information exists.
+ 
+                </p>
+              </dd>
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  disasmHelper
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-disasmhelper.html">DisasmHelper</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs">
+                <p>
+                  
+   The helper allows our disassembler to resolve symbols.
+ 
+                </p>
+              </dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>string</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns a disassembled string.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3450', 3450)" onmouseover="showTip(event, '3450', 3450)">
+                <p>
+                  <a id="GetNextInstrAddrs">
+                    <a href="#GetNextInstrAddrs">
+                      <code><span>this.GetNextInstrAddrs<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3450">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.GetNextInstrAddrs<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span>seq&lt;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-archoperationmode.html">ArchOperationMode</a></span>&gt;</span></code>
+                  </span>
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.GetNextInstrAddrs`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.GetNextInstrAddrs\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L208-208" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Return a sequence of possible next instruction addresses along with
+   their ArchOperationMode. For branch instructions, the returned sequence
+   includes jump target(s). For regular instructions, the sequence is a
+   singleton of the fall-through address. This function does not resolve
+   indirect branch targets.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span>seq&lt;<span><a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&#32;*&#32;<a href="https://b2r2.org/APIDoc/reference/b2r2-archoperationmode.html">ArchOperationMode</a></span>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3451', 3451)" onmouseover="showTip(event, '3451', 3451)">
+                <p>
+                  <a id="Immediate">
+                    <a href="#Immediate">
+                      <code><span>this.Immediate<span><span>(<span>v</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3451">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Immediate<span><span>(<span>v</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        v
+                      </b>
+                      :
+                      <code><span>byref&lt;int64&gt;</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if an immediate exists. Otherwise, returns false.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.Immediate`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.Immediate\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L199-199" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Return an integer immediate value of the instruction if there is one.
+   This function will ignore floating-point immediate values.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  v
+                </span>
+                :
+                <code><span>byref&lt;int64&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if an immediate exists. Otherwise, returns false.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3452', 3452)" onmouseover="showTip(event, '3452', 3452)">
+                <p>
+                  <a id="IndirectTrampolineAddr">
+                    <a href="#IndirectTrampolineAddr">
+                      <code><span>this.IndirectTrampolineAddr<span><span>(<span>addr</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3452">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IndirectTrampolineAddr<span><span>(<span>addr</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        addr
+                      </b>
+                      :
+                      <code><span>byref&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if a trampoline address exists. Otherwise, returns false.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IndirectTrampolineAddr`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IndirectTrampolineAddr\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L190-190" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Return a trampoline address of an indirect branch instruction if we can
+   directly compute the address. For example, `JMP [RIP + 0x42]` is an
+   indirect branch instruction, but we can compute the trampoline address
+   as RIP is statically known anyways when PIC is off.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  addr
+                </span>
+                :
+                <code><span>byref&lt;<a href="https://b2r2.org/APIDoc/reference/b2r2-addr.html">Addr</a>&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if a trampoline address exists. Otherwise, returns false.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3453', 3453)" onmouseover="showTip(event, '3453', 3453)">
+                <p>
+                  <a id="InterruptNum">
+                    <a href="#InterruptNum">
+                      <code><span>this.InterruptNum<span><span>(<span>num</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3453">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.InterruptNum<span><span>(<span>num</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        num
+                      </b>
+                      :
+                      <code><span>byref&lt;int64&gt;</span></code>
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.InterruptNum`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.InterruptNum\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L213-213" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Return the interrupt number if this is an interrupt instruction.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  num
+                </span>
+                :
+                <code><span>byref&lt;int64&gt;</span></code>
+              </dt>
+              <dd class="fsdocs-param-docs"></dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3454', 3454)" onmouseover="showTip(event, '3454', 3454)">
+                <p>
+                  <a id="IsBBLEnd">
+                    <a href="#IsBBLEnd">
+                      <code><span>this.IsBBLEnd<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3454">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsBBLEnd<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this instruction should be at the end of the
+   corresponding basic block.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsBBLEnd`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsBBLEnd\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L162-162" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Does this instruction end a basic block? For example, this function
+   returns true for branch instructions and exit instructions. We also
+   consider system call instructions as an end of basic blocks.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this instruction should be at the end of the
+   corresponding basic block.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3455', 3455)" onmouseover="showTip(event, '3455', 3455)">
+                <p>
+                  <a id="IsBranch">
+                    <a href="#IsBranch">
+                      <code><span>this.IsBranch<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3455">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsBranch<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a branch instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsBranch`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsBranch\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L65-65" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a branch instruction? A branch instruction includes any kinds of
+   jump instructions, such as CALL/RET instructions, indirect/direct jump
+   instructions, and conditional jump instructions.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a branch instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3456', 3456)" onmouseover="showTip(event, '3456', 3456)">
+                <p>
+                  <a id="IsCJmpOnTrue">
+                    <a href="#IsCJmpOnTrue">
+                      <code><span>this.IsCJmpOnTrue<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3456">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsCJmpOnTrue<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a conditional branch instruction, and jumps to
+   the target when the predicate is true.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsCJmpOnTrue`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsCJmpOnTrue\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L115-115" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a conditional branch instruction, and it jumps to the branch
+   target when the predicate is true? For example, this method returns true
+   for <code>JE</code> instructions of Intel, but false for <code>JNE</code>
+   instructions.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a conditional branch instruction, and jumps to
+   the target when the predicate is true.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3457', 3457)" onmouseover="showTip(event, '3457', 3457)">
+                <p>
+                  <a id="IsCall">
+                    <a href="#IsCall">
+                      <code><span>this.IsCall<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3457">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsCall<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a call instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsCall`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsCall\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L123-123" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a call instruction?
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a call instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3458', 3458)" onmouseover="showTip(event, '3458', 3458)">
+                <p>
+                  <a id="IsCondBranch">
+                    <a href="#IsCondBranch">
+                      <code><span>this.IsCondBranch<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3458">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsCondBranch<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a conditional branch instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsCondBranch`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsCondBranch\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L103-103" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a conditional branch instruction?
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a conditional branch instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3459', 3459)" onmouseover="showTip(event, '3459', 3459)">
+                <p>
+                  <a id="IsDirectBranch">
+                    <a href="#IsDirectBranch">
+                      <code><span>this.IsDirectBranch<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3459">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsDirectBranch<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a direct branch instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsDirectBranch`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsDirectBranch\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L85-85" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a direct branch instruction? A direct branch instruction is a
+   branch instruction with a concrete jump target, which is inscribed in
+   its operand. For example, <code>CALL ECX</code> is not a direct branch
+   instruction, but <code>JMP +10</code> is.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a direct branch instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3460', 3460)" onmouseover="showTip(event, '3460', 3460)">
+                <p>
+                  <a id="IsExit">
+                    <a href="#IsExit">
+                      <code><span>this.IsExit<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3460">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsExit<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this instruction should be at the end of the
+   corresponding basic block.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsExit`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsExit\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L151-151" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Does this instruction exits the program execution? For example, this
+   function returns true for the <code>HLT</code> instruction of Intel. We also
+   consider returning from kernel mode to user mode (e.g. <code>SYSEXIT</code>
+   instruction of Intel) as an exit.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this instruction should be at the end of the
+   corresponding basic block.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3461', 3461)" onmouseover="showTip(event, '3461', 3461)">
+                <p>
+                  <a id="IsIndirectBranch">
+                    <a href="#IsIndirectBranch">
+                      <code><span>this.IsIndirectBranch<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3461">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsIndirectBranch<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is an indirect branch instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsIndirectBranch`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsIndirectBranch\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L95-95" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this an indirect branch instruction? An indirect branch instruction
+   is a branch instruction with a symbolic jump target. Thus, the jump
+   target is only computed at runtime.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is an indirect branch instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3462', 3462)" onmouseover="showTip(event, '3462', 3462)">
+                <p>
+                  <a id="IsInlinedAssembly">
+                    <a href="#IsInlinedAssembly">
+                      <code><span>this.IsInlinedAssembly<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3462">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsInlinedAssembly<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsInlinedAssembly`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsInlinedAssembly\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L264-264" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3463', 3463)" onmouseover="showTip(event, '3463', 3463)">
+                <p>
+                  <a id="IsInterrupt">
+                    <a href="#IsInterrupt">
+                      <code><span>this.IsInterrupt<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3463">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsInterrupt<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is an interrupt instruction
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsInterrupt`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsInterrupt\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L139-139" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Does this instruction involve an interrupt?
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is an interrupt instruction
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3464', 3464)" onmouseover="showTip(event, '3464', 3464)">
+                <p>
+                  <a id="IsModeChanging">
+                    <a href="#IsModeChanging">
+                      <code><span>this.IsModeChanging<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3464">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsModeChanging<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a mode-changing instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsModeChanging`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsModeChanging\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L74-74" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a mode-changing instruction? In ARMv7, BLX is such an
+   instruction.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a mode-changing instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3465', 3465)" onmouseover="showTip(event, '3465', 3465)">
+                <p>
+                  <a id="IsNop">
+                    <a href="#IsNop">
+                      <code><span>this.IsNop<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3465">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsNop<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this instruction is a NO-OP.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsNop`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsNop\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L170-170" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a NO-OP instruction?
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this instruction is a NO-OP.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3466', 3466)" onmouseover="showTip(event, '3466', 3466)">
+                <p>
+                  <a id="IsRET">
+                    <a href="#IsRET">
+                      <code><span>this.IsRET<span>()</span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3466">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.IsRET<span>()</span></span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>bool</code>
+                  </span>
+                  
+   Returns true if this is a return instruction.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.IsRET`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.IsRET\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L131-131" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Is this a return instruction?
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>bool</code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns true if this is a return instruction.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3467', 3467)" onmouseover="showTip(event, '3467', 3467)">
+                <p>
+                  <a id="Length">
+                    <a href="#Length">
+                      <code><span>this.Length</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3467">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Length</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code>uint32</code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.FrontEnd.BinLifter.Instruction.Length`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.FrontEnd.BinLifter.Instruction.Length\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L46-46" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   The length of this instruction in bytes.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code>uint32</code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3468', 3468)" onmouseover="showTip(event, '3468', 3468)">
+                <p>
+                  <a id="Translate">
+                    <a href="#Translate">
+                      <code><span>this.Translate<span><span>(<span>ctxt</span>)</span></span></span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3468">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.Translate<span><span>(<span>ctxt</span>)</span></span></span></code>
+                  <br/>
+                  <br/>
+                  Parameters: 
+                  <ul>
+                    <span>
+                      <b>
+                        ctxt
+                      </b>
+                      :
+                      <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-translationcontext.html">TranslationContext</a></code>
+                       - 
+                      Translation context.
+                    </span>
+                    <br/>
+                  </ul>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-binir-lowuir-stmt.html">Stmt</a>[]</span></code>
+                  </span>
+                  
+   Returns an array of LowUIR statements.
+ 
+                  <br/>
+                  Modifiers: 
+                  abstract
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:M:B2R2.FrontEnd.BinLifter.Instruction.Translate`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'M:B2R2.FrontEnd.BinLifter.Instruction.Translate\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L222-222" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   Lift this instruction into a LowUIR given a translation context.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-params">
+              <dt class="fsdocs-param">
+                <span class="fsdocs-param-name">
+                  ctxt
+                </span>
+                :
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-frontend-binlifter-translationcontext.html">TranslationContext</a></code>
+              </dt>
+              <dd class="fsdocs-param-docs">
+                <p>
+                  Translation context.
+                </p>
+              </dd>
+            </dl>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><span><a href="https://b2r2.org/APIDoc/reference/b2r2-binir-lowuir-stmt.html">Stmt</a>[]</span></code>
+              </dt>
+              <dd class="fsdocs-return-docs">
+                <p>
+                  
+   Returns an array of LowUIR statements.
+ 
+                </p>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td class="fsdocs-member-usage">
+            <div>
+              <code onmouseout="hideTip(event, '3469', 3469)" onmouseover="showTip(event, '3469', 3469)">
+                <p>
+                  <a id="WordSize">
+                    <a href="#WordSize">
+                      <code><span>this.WordSize</span></code>
+                    </a>
+                  </a>
+                </p>
+              </code>
+              <div class="fsdocs-tip" id="3469">
+                <div class="member-tooltip">
+                  Full Usage: 
+                  <code><span>this.WordSize</span></code>
+                  <br/>
+                  <br/>
+                  <span>
+                    Returns: 
+                    <code><a href="https://b2r2.org/APIDoc/reference/b2r2-wordsize.html">WordSize</a></code>
+                  </span>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="fsdocs-member-xmldoc">
+            <div class="fsdocs-summary">
+              <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:P:B2R2.FrontEnd.BinLifter.Instruction.WordSize`')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+              </div>
+              <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'P:B2R2.FrontEnd.BinLifter.Instruction.WordSize\'/>')">
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+              </div>
+              <a href="https://github.com/B2R2-org/B2R2/tree/master/src/FrontEnd/BinLifter/Core/Instruction.fs#L55-55" class="fsdocs-source-link" title="Source on GitHub">
+                <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+                <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+              </a>
+              <p class="fsdocs-summary">
+                
+   The word size used for translating this instruction. Some architectures
+   have several representations of their instruction sets depending on the
+   word size. For example, Intel can be represented as either x86 or x86-64
+   depending on the word size used. We store this information per
+   instruction to distinguish specific instruction sets used.
+ 
+              </p>
+            </div>
+            <dl class="fsdocs-returns">
+              <dt>
+                <span class="fsdocs-return-name">
+                  Returns: 
+                </span>
+                <code><a href="https://b2r2.org/APIDoc/reference/b2r2-wordsize.html">WordSize</a></code>
+              </dt>
+              <dd class="fsdocs-return-docs"></dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div></div>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>

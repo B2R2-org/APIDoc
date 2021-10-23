@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>B2R2.MiddleEnd.ControlFlowGraph</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SoftSec Lab. @ KAIST">
+
+    <link rel="stylesheet" id="theme_link" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/materia/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/navbar-fixed-left.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="https://b2r2.org/APIDoc/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-left" id="fsdocs-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarsExampleDefault">
+            <a href="https://b2r2.org/APIDoc/"><img id="fsdocs-logo" src="https://b2r2.org/images/b2r2-240x240.png" /></a>
+            <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+            <div id="header">
+                <div class="searchbox" id="fsdocs-searchbox">
+                    <label for="search-by">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input data-search-input="" id="search-by" type="search" placeholder="Search..." />
+                    <span data-search-clear="">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- END SEARCH BOX: this adds support for the search box -->
+            <ul class="navbar-nav">
+                <li class="nav-header">Links</li>
+                <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/LICENSE.md">License</a></li>
+                <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/blob/master/RELEASE_NOTES.md">Release Notes</a></li>
+                <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="https://github.com/B2R2-org/B2R2/">Source Repository</a></li>
+                
+                <li class="nav-header">
+  API Reference
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="https://b2r2.org/APIDoc/reference/index.html">
+    All Namespaces
+  </a>
+</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="masthead">
+            <h3 class="muted"><a href="https://b2r2.org/APIDoc/">B2R2</a></h3>
+        </div>
+        <hr />
+        <div class="container" id="fsdocs-content">
+            <div>
+  <h2 id="b2r2-middleend-controlflowgraph">
+    B2R2.MiddleEnd.ControlFlowGraph Namespace
+  </h2>
+  <div class="fsdocs-xmldoc"></div>
+  <table class="table outer-list fsdocs-entity-list">
+    <thead>
+      <tr>
+        <td>
+          Type/Module
+        </td>
+        <td>
+          Description
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="BasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-basicblock.html">
+                BasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.BasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.BasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/BasicBlock.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ The base type for basic block.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CallCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-callcfgmodule.html">
+                CallCFG (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CallCFGModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CallCFGModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CallGraph.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CallCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-callcfg.html">
+                CallCFG (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CallCFG`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CallCFG\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CallGraph.fs#L30-30" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Call graph, where each node represents a function.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CallGraphBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-callgraphblock.html">
+                CallGraphBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CallGraphBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CallGraphBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CallGraphBlock.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Basic block type for a call graph (CallCFG).
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CFGEdgeKind">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cfgedgekindmodule.html">
+                CFGEdgeKind (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CFGEdgeKindModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CFGEdgeKindModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L84-84" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CFGEdgeKind">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cfgedgekind.html">
+                CFGEdgeKind (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CFGEdgeKind`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CFGEdgeKind\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGEdgeKind.fs#L29-29" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ TODO: Make DU types for Call, Jmp, FallThrough edges
+ We distinguish edges of a CFG by classifying them into several kinds.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CFGExport">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cfgexport.html">
+                CFGExport
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CFGExport`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CFGExport\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CFGExport.fs#L25-25" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="CGVertex">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-cgvertex.html">
+                CGVertex
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.CGVertex`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.CGVertex\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/CallGraphBlock.fs#L53-53" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="ControlFlowGraph<'D, 'E>">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-controlflowgraph-2.html">
+                ControlFlowGraph<'D, 'E>
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('``cref:T:B2R2.MiddleEnd.ControlFlowGraph.ControlFlowGraph`2``')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.ControlFlowGraph`2\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/ControlFlowGraph.fs#L29-29" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DefSites">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-defsites.html">
+                DefSites
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DefSites`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DefSites\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L43-43" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Mapping from a variable to a set of defining SSA basic blocks.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DefsPerNode">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-defspernode.html">
+                DefsPerNode
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DefsPerNode`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DefsPerNode\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L46-46" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Defined variables per node in a SSACFG.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DisasmBasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-disasmbasicblock.html">
+                DisasmBasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DisasmBasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DisasmBasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/DisasmBasicBlock.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Basic block type for a disassembly-based CFG (DisasmCFG).
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DisasmCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-disasmcfgmodule.html">
+                DisasmCFG (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DisasmCFGModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DisasmCFGModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/DisasmCFG.fs#L34-34" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DisasmCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-disasmcfg.html">
+                DisasmCFG (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DisasmCFG`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DisasmCFG\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/DisasmCFG.fs#L31-31" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Disassembly-based CFG, where each node contains disassembly code.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="DisasmVertex">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-disasmvertex.html">
+                DisasmVertex
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.DisasmVertex`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.DisasmVertex\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/DisasmBasicBlock.fs#L73-73" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="FakeBlockInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-fakeblockinfo.html">
+                FakeBlockInfo
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.FakeBlockInfo`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.FakeBlockInfo\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/FakeBlockInfo.fs#L44-44" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ IRBasicBlock can be either a fake block or a regular block. FakeBlockInfo
+ exists only for fake blocks.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="FakeIRBasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-fakeirbasicblock.html">
+                FakeIRBasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.FakeIRBasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.FakeIRBasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRBasicBlock.fs#L132-132" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Fake IRBasicBlock. We create a fake block when there is a function call, and
+ thus, a fake block represents a function. Note, fake blocks do not uniquely
+ represent a function. That is, when there are multiple function calls to the
+ same function, we create a fake block for each of the call sites.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="FakeSSABasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-fakessabasicblock.html">
+                FakeSSABasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.FakeSSABasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.FakeSSABasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L159-159" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Fake SSABasicBlock, which may or may not hold a function summary with
+ ReturnVal expressions.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="FakeVMap">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-fakevmap.html">
+                FakeVMap
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.FakeVMap`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.FakeVMap\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L40-40" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ This is a mapping from an edge to a dummy vertex (for external function
+ calls). We first separately create dummy vertices even if they are
+ associated with the same node (address) in order to compute dominance
+ relationships without introducing incorrect paths or cycles. For
+ convenience, we will always consider as a key "a return edge" from a fake
+ vertex to a fall-through vertex.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="GetPCThunkInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-getpcthunkinfomodule.html">
+                GetPCThunkInfo (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.GetPCThunkInfoModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.GetPCThunkInfoModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/FakeBlockInfo.fs#L37-37" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="GetPCThunkInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-getpcthunkinfo.html">
+                GetPCThunkInfo (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.GetPCThunkInfo`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.GetPCThunkInfo\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/FakeBlockInfo.fs#L30-30" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Is this a get-pc-thunk function?
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IDStack">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-idstack.html">
+                IDStack
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IDStack`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IDStack\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L52-52" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Variable ID stack.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="InlinedAssembly">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-inlinedassembly.html">
+                InlinedAssembly
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssembly`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssembly\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/InlinedAssembly.fs#L62-62" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="InlinedAssemblyPattern">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-inlinedassemblypattern.html">
+                InlinedAssemblyPattern
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssemblyPattern`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssemblyPattern\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/InlinedAssembly.fs#L45-45" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="InlinedAssemblyTypes">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-inlinedassemblytypes.html">
+                InlinedAssemblyTypes
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssemblyTypes`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.InlinedAssemblyTypes\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/InlinedAssembly.fs#L39-39" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Sometimes, inlined assembly creates branches that jump into the middle of an
+ instruction. For example, the following pattern is commonly found in Libc.
+
+ 41af15: 64 83 3c 25 18 00 00 00 00    cmpl  $0x0,%fs:0x18
+ 41af1e: 74 01                         je    41af21 <arena_get2.part.0+0x4a1>
+ 41af20: f0 48 ff 0d c0 57 0a 00       lock decq 0xa57c0(%rip)
+
+ We call such the above code pattern as the "jump-after-lock" pattern.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="InstructionInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-instructioninfo.html">
+                InstructionInfo
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.InstructionInfo`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.InstructionInfo\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/InstructionInfo.fs#L33-33" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Abstract information about the instruction and its corresponding IR
+ statements.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IRBasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-irbasicblockmodule.html">
+                IRBasicBlock (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IRBasicBlockModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IRBasicBlockModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRBasicBlock.fs#L156-156" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IRBasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-irbasicblock.html">
+                IRBasicBlock (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IRBasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IRBasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRBasicBlock.fs#L36-36" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ A basic block that consists of IR (LowUIR) statements. It contains all the
+ InstructionInfo of the basic block. We say an IRBasicBlock is a fake block
+ if it contains no instruction, i.e., when the instrs is [||].
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IRCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ircfgmodule.html">
+                IRCFG (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IRCFGModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IRCFGModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRCFG.fs#L34-34" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IRCFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ircfg.html">
+                IRCFG (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IRCFG`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IRCFG\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRCFG.fs#L31-31" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="IRVertex">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-irvertex.html">
+                IRVertex
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.IRVertex`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.IRVertex\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRCFG.fs#L29-29" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="RegularIRBasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-regularirbasicblock.html">
+                RegularIRBasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.RegularIRBasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.RegularIRBasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/IRBasicBlock.fs#L103-103" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Regular IRBasicBlock; a basic block with IR statements.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="RegularSSABasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-regularssabasicblock.html">
+                RegularSSABasicBlock
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.RegularSSABasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.RegularSSABasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L137-137" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Regular SSABasicBlock with regular instructions.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSABasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssabasicblockmodule.html">
+                SSABasicBlock (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSABasicBlockModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSABasicBlockModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L188-188" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSABasicBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssabasicblock.html">
+                SSABasicBlock (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSABasicBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSABasicBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L80-80" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Basic block type for an SSA-based CFG (SSACFG). It holds an array of
+ SSAStmtInfos (ProgramPoint * SSA.Stmt).
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSACFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssacfgmodule.html">
+                SSACFG (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSACFGModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSACFGModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSACFG.fs#L35-35" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSACFG">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssacfg.html">
+                SSACFG (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSACFG`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSACFG\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSACFG.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ SSA-based CFG, where each node contains disassembly code.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSAEdges">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssaedges.html">
+                SSAEdges
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSAEdges`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSAEdges\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSAEdges.fs#L25-25" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSAStmtInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssastmtinfo.html">
+                SSAStmtInfo
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSAStmtInfo`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSAStmtInfo\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L75-75" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ SSA statement information.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSAVertex">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssavertex.html">
+                SSAVertex
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSAVertex`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSAVertex\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSABasicBlock.fs#L185-185" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ SSACFG's vertex.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SSAVMap">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-ssavmap.html">
+                SSAVMap
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SSAVMap`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SSAVMap\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L32-32" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ A mapping from an address to a SSACFG vertex.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="SyscallTailInfo">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-syscalltailinfo.html">
+                SyscallTailInfo
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.SyscallTailInfo`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.SyscallTailInfo\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SyscallTailInfo.fs#L30-30" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ A basic block may end with a syscall instruction, and the syscall may
+ terminate the program or not. We store such information for each basic
+ block to easily track them.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="VarCountMap">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-varcountmap.html">
+                VarCountMap
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.VarCountMap`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.VarCountMap\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/SSATypes.fs#L49-49" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ Counter for each variable.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="VisualBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-visualblockmodule.html">
+                VisualBlock (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.VisualBlockModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.VisualBlockModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/VisualBlock.fs#L45-45" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="VisualBlock">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-visualblock.html">
+                VisualBlock (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.VisualBlock`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.VisualBlock\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/VisualBlock.fs#L43-43" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ A visual representation of a basic block.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="VisualLine">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-visuallinemodule.html">
+                VisualLine (Module)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.VisualLineModule`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.VisualLineModule\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/VisualBlock.fs#L33-33" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="fsdocs-entity-name">
+          <p>
+            <a name="VisualLine">
+              <a href="https://b2r2.org/APIDoc/reference/b2r2-middleend-controlflowgraph-visualline.html">
+                VisualLine (Type)
+              </a>
+            </a>
+          </p>
+        </td>
+        <td class="fsdocs-entity-xmldoc">
+          <div>
+            <div class="fsdocs-source-link" title="Copy signature (Markdown)" onclick="Clipboard_CopyTo('`cref:T:B2R2.MiddleEnd.ControlFlowGraph.VisualLine`')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-md-hover.png" class="hover"/>
+            </div>
+            <div class="fsdocs-source-link" title="Copy signature (XML)" onclick="Clipboard_CopyTo('<see cref=\'T:B2R2.MiddleEnd.ControlFlowGraph.VisualLine\'/>')">
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/copy-xml-hover.png" class="hover"/>
+            </div>
+            <a href="https://github.com/B2R2-org/B2R2/tree/master/src/MiddleEnd/ControlFlowGraph/VisualBlock.fs#L31-31" class="fsdocs-source-link" title="Source on GitHub">
+              <img src="https://b2r2.org/APIDoc/content/img/github.png" class="normal"/>
+              <img src="https://b2r2.org/APIDoc/content/img/github-hover.png" class="hover"/>
+            </a>
+            <p class="fsdocs-summary">
+              
+ A visual line of a basic block.
+
+            </p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+            
+        </div>
+
+        <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+        <script type="text/javascript">var fsdocs_search_baseurl = 'https://b2r2.org/APIDoc/';</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+        <script type="text/javascript" src="https://b2r2.org/APIDoc/content/fsdocs-search.js"></script>
+        <!-- END SEARCH BOX: this adds support for the search box -->
+    </div>
+</body>
+
+</html>
